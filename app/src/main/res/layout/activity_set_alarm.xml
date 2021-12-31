@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="379dp"
+            android:layout_height="531dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="30dp"
+            android:outlineAmbientShadowColor="@color/underline"
+            android:textAlignment="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="541dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/med_name"
+                    android:layout_width="260dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp"></EditText>
+
+                <ImageView
+                    android:id="@+id/btn_morn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:maxHeight="1dp"
+                    android:padding="1dp"
+                    android:src="@drawable/time" />
+
+
+                <EditText
+                    android:id="@+id/morning"
+                    android:layout_width="260dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/med_name"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp"></EditText>
+
+                <ImageView
+                    android:id="@+id/btn_after"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:maxHeight="1dp"
+                    android:padding="1dp"
+                    android:src="@drawable/time" />
+
+                <EditText
+                    android:id="@+id/afternoon"
+                    android:layout_width="260dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/morning"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp"></EditText>
+
+                <ImageView
+                    android:id="@+id/btn_night"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:maxHeight="1dp"
+                    android:padding="1dp"
+                    android:src="@drawable/time" />
+
+                <EditText
+                    android:id="@+id/night"
+                    android:layout_width="260dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/afternoon"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp"></EditText>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "287272735270",
+    "firebase_url": "https://medirem-1b3b8-default-rtdb.firebaseio.com",
+    "project_id": "medirem-1b3b8",
+    "storage_bucket": "medirem-1b3b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287272735270:android:45c009aaad132e29f20ce7",
+        "android_client_info": {
+          "package_name": "com.example.text_detect_check"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287272735270-87l0hgme97f9o5ekugu498juckpt6o30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkxpFmRYOzBPxXJB8Ibr1F2R_aq-d98vE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287272735270-87l0hgme97f9o5ekugu498juckpt6o30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

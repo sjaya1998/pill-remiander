@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="332dp"
+        android:layout_height="303dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginVertical="90dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="38dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/eye_logo">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_marginTop="500dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/idBtnLogin"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:text="LOGIN"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/idBtnRegister"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back"
+            android:text="REGISTER"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">text-detect-check</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_cnfpassword">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="create_new">Click here for register</string>
+    <string name="not_register">Not Register?</string>
+    <string name="Already">Already Registered</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register">Register</string>
+    <string name="name_error">Please enter your name</string>
+    <string name="phone_error">Please enter your phone number</string>
+    <string name="email_error">Please enter your email address</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="match_pass">Not matching with password</string>
+    <string name="error_invalid_password">Please enter a minimum password of 6 characters</string>
+</resources>
